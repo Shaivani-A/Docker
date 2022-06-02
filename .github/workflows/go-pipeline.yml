@@ -50,6 +50,6 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         context: .
-        file: ./Dockerfile
+        file: ./Go_server/Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/go_server:commit
