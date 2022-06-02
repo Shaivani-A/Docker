@@ -32,8 +32,8 @@ jobs:
       with:
         go-version: 1.17
     
-    - name: go build
-      uses: go build -v ./Go_server/...
+    - name: build
+      uses: go build -v ./...
 
 
       
